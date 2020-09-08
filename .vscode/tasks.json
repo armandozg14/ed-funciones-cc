@@ -7,11 +7,9 @@
 			"command": "g++",
 			"args": [
 				"-std=c++17",
-				"-I",
-				"include",
 				"src/*.cc",
 				"-o",
-				"bin/arrays.exe"
+				"bin/func.exe"
 			],
 			"options": {
 				"cwd": "${workspaceFolder}"
@@ -19,7 +17,10 @@
 			"problemMatcher": [
 				"$gcc"
 			],
-			"group": "build"
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
 		}
 	]
 }
