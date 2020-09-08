@@ -7,9 +7,11 @@
 			"command": "g++",
 			"args": [
 				"-std=c++17",
+				"-I",
+				"include",
 				"src/*.cc",
 				"-o",
-				"bin/func.exe"
+				"bin/arrays.exe"
 			],
 			"options": {
 				"cwd": "${workspaceFolder}"
